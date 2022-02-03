@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>University of Mannheim | Mediated Contestation in Comparative Perspective project | Documentation - Item Selection - EITM-based - Thematic Classification - Evaluation</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="../../../../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../../../common/medcon.css"/>
+		
+		<link href="../../../../../common/featherlight.min.css" type="text/css" rel="stylesheet" />
+		<script src="../../../../../common/jquery-latest.js"></script>
+		<script src="../../../../../common/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Evaluation</h3>
+					<p>
+						This section describes the evaluation process for the thematic classification. First, all Australian, Swiss and Turkish blog posts were manually coded as thematically irrelevant or relevant. We used this human-coded gold standard to evaluate the performance of the classifier (EITM).
+					</p>
+					<h3>Receiver Operating Characteristic (ROC)</h3>
+					<p>
+						A commonly used graphical evaluation method for scoring classifiers is the receiver operating characteristic (ROC). The ROC can be used to evaluate the trade-off when setting the detection threshold of a radio receiver between the true positives and the false positives.
+					</p>
+					<p>
+						When drawing the ROC, the true positive rate (specificity) is drawn on the y-axis and the false positive rate is drawn on the x-axis. Similar to the recall, the false positive rate is defined as the number of falsely as positive classified instances, versus the number of all negative instances in the dataset.
+					</p>
+					<p>
+						A perfect classifier would yield 100% true positives and 0% false positives, which would put a dot on the (0, 1) corner point of the ROC curve. A bad classifier, that would just randomly guess results, would yield points on the diagonal.
+					</p>
+					<h3>Precision-Recall Curve (PRC)</h3>
+					<p>
+						Another visual analysis method for the quality of a classifier is the precision-recall curve (PRC). It is a measure mainly used in the field of information retrieval. The precision can be interpreted as the fraction of correctly identified documents and the recall as the fraction of all documents of interest that can be identified by the information retrieval system.
+					</p>
+					<p>
+						The PRC shows the development of the precision and recall over all possible thresholds. Therefore, it plots the precision on the y-axis versus the recall on the x-axis of a graph, each point on the curve representing one threshold value.
+					</p>
+					<p>
+						Both methods of evaluation capture different aspects of a classifier which makes it necessary to consider both in the evaluation.
+					</p>
+					<h4>Material</h4>
+					<p>
+						The data and python code used to generate the ROC and the PRC curves can be found below.
+					</p>
+					<p>
+						<ul>
+							<li><a href="../../../../files/Appendix - Evaluation Data.tsv" download="" target="_blank">Evaluation Data [TSV]</a></li>
+							<li><a href="../../../../files/Appendix - Evaluation Code.py" download="" target="_blank">Evaluation Code [PY]</a></li>
+						</ul>
+					</p>
+					<h3>Baseline Comparison</h3>
+					<p>
+						For the baseline comparison, we decided to run a simple keyword-based search on our test corpus. For that, we used the keywords provided by the experts, removed too broad keywords that would match too large proportions of the corpus, and then selected all documents containing the remaining keywords.
+					</p>
+					<h4>Material</h4>
+					<p>
+						The used keyword lists and the code for the document selection can be found below.
+					</p>
+					<p>
+						<ul>
+							<li><a href="../../../../files/Appendix - Repro Materials Baseline Keyword Search.zip" download="" target="_blank">Reproduction Material Baseline Comparison [ZIP]</a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		
+		<script type="text/javascript">window.linkLevel = 5; window.sectionID = 'evaluation';</script>		
+		<script type="text/javascript" src="../../../../../common/common.js"></script>
+		<script type="text/javascript" src='../../../../subnav.js'></script>
+    </body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>University of Mannheim | Mediated Contestation in Comparative Perspective project | Documentation - Text Data Collection - Statistics Plain-Text Data</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="../../../common/datatables.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../common/medcon.css"/>
+		<script type="text/javascript" src="../../../common/datatables.min.js"></script>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Statistics - Plain Text Data</h3>
+					<p>
+						The following table shows an overview of the collected items for each country and each media type.
+					</p>
+					<table class="table table-condensed table-striped texter-center">
+					  <thead>
+						  <tr>
+							<th rowspan="2">Media type</th>
+							<th class="text-center" colspan="6">Country</th>
+							<th class="text-center" rowspan="2">Total</th>
+						  </tr>
+						  <tr>
+							<th class="text-center">Australia</th>
+							<th class="text-center">Germany</th>
+							<th class="text-center">Lebanon</th>
+							<th class="text-center">Switzerland</th>
+							<th class="text-center">Turkey</th>
+							<th class="text-center">USA</th>
+						  </tr>
+					  </thead>
+					  <tbody>
+						  <tr>
+							<th>Blog</th>
+							<td class="text-center">7,503</td>
+							<td class="text-center">34,215</td>
+							<td class="text-center">4,541</td>
+							<td class="text-center">1,635</td>
+							<td class="text-center">3,565</td>
+							<td class="text-center">116,329</td>
+							<td class="text-center">167,788</td>
+						  </tr>
+						  <tr>
+							<th>News Website</th>
+							<td class="text-center">275,643</td>
+							<td class="text-center">191,702</td>
+							<td class="text-center">191,353</td>
+							<td class="text-center">122,581</td>
+							<td class="text-center">250,709</td>
+							<td class="text-center">403,031</td>
+							<td class="text-center">1,435,019</td>
+						  </tr>
+						  <tr>
+							<th>Printed Newspaper</th>
+							<td class="text-center">163,029</td>
+							<td class="text-center">121,739</td>
+							<td class="text-center">-</td>
+							<td class="text-center">100,729</td>
+							<td class="text-center">-</td>
+							<td class="text-center">131,478</td>
+							<td class="text-center">516,975</td>
+						  </tr>
+					  </tbody>
+					  <tfoot>
+						  <tr>
+							<th>Total</th>
+							<th class="text-center">446,175</th>
+							<th class="text-center">347,656</th>
+							<th class="text-center">195,894</th>
+							<th class="text-center">224,945</th>
+							<th class="text-center">254,274</th>
+							<th class="text-center">650,838</th>
+							<th class="text-center">2,119,782</th>
+						  </tr>
+					  </tfoot>
+					</table>
+					<p>
+						The next table is an overview of the sources used and some statistics and graphical representations of the articles crawled in the period of investigation.
+					</p>
+					<p>
+						Some of the columns reveal  further explanations when hovering over the column header. The table can also be sorted by clicking on the column headers. Clicking the header again reverses the sort order.
+					</p>
+					<p>
+						The table can be filtered using the search box at the top. The last row containing the totals will update based on the search criteria entered into the box.
+					</p>
+					<!-- <h3 style="margin-bottom: -30px;">Source Statistics</h3> -->
+					<table id="report" class="display" width="100%">
+					<tfoot>
+						<tr>
+							<th colspan="6" style="text-align:right" class="total">Total:</th>
+							<th colspan="5" class="total"></th>
+						</tr>
+					</tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		
+		<script type="text/javascript">window.linkLevel = 3; window.sectionID = 'descriptive-statistics-ptd';</script>		
+		<script type="text/javascript" src="../../../common/common.js"></script>
+		<script type="text/javascript" src='../../subnav.js'></script>
+		
+		<script type="text/javascript" src="dataset.js"></script>
+		
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('#report').DataTable( {
+				bPaginate: false,
+				data: window.dataSet,
+				columns: [
+					{ title: "Source ID", data: 'domain', orderable: true },
+					{ title: "Title", data: 'title', orderable: true},
+					{ title: "Source", data: 'url', orderable: true},
+					{ title: "Media Type", data: 'medium', orderable: true},
+					{ title: "Country", data: 'country', orderable: true},
+					{ title: "Language", data: 'language', orderable: true, render: function(data, type, full, meta) {
+						if ( type == 'display') {
+							var comment = full.language_comment ? ' / <a href="#" data-toggle="tooltip" data-placement="top" title="'+full.language_comment+'">&#x1f4ac;</a>' : '';
+							
+							return full.language + ' ' + comment;
+						} else {
+							return full.language;
+						}
+					}},
+					{ title: "Items collected", data: 'total_articles', render: function(data, type, full, meta) {
+						if ( type === 'display') {
+							return '<div class="center" data="'+full['total_articles']+'">'+full['total_articles'].toLocaleString('en-US')+'</div>';
+						} else {
+							return full['total_articles'];
+						}
+					}, data: 'total_articles', orderable: true},
+					{ title: "Duplicates collected", orderable: true, render: function(data, type, full, meta) {
+						if ( type === 'display') {
+							console.log(data);
+							return '<div class="center">'+(full['duplicates'] / full['sample_size'] * 100).toFixed(1) + " % ("+(full['sample_size']*full['samples']).toLocaleString('en-US')+")</div>";
+						} else {
+							return full['duplicates'] / full['sample_size'];
+						}
+					}},
+					{ title: "Moving Average (28d)", render: function(data, type, full, meta) {
+						return '<div class="center"><a href="'+full.domain+'.html" target="_new"><img src="'+full.domain+'_small.png" height="25" width="100"></a></div>';
+					}, orderable: false},
+					{ title: "Details", render: function(data, type, full, meta) {
+						return '<div class="center"><a href="'+full.domain+'.html" target="_new">🔍</a></div>';
+					}, orderable: false},
+					{ title: "Process / Comments", render: function(data, type, full, meta) {
+						var kimono = function() {
+							return RegExp(/1/g).test(full.process) ? "Crawling started late as a solution for the source not providing an RSS feed needed to be found. " + (full.comment ? full.comment : "") : full.comment;
+						};
+						var comment = kimono(full.comment) ? ' / <a href="#" data-toggle="tooltip" data-placement="top" title="'+kimono(full.comment)+'">&#x1f4ac;</a>' : '';
+						return '<div class="center process">' + full.process.replace(/[1-7,]/g, function(m) {
+							return {
+								'1': `<span data-toggle="tooltip" data-placement="top" title="Kimono (see Data Collection Process for details)">&#x278A;<\/span>`,
+								'2': `<span data-toggle="tooltip" data-placement="top" title="Java Crawler (see Data Collection Process for details)">&#x278B;<\/span>`,
+								'3': `<span data-toggle="tooltip" data-placement="top" title="Splash (see Data Collection Process for details)">&#x278C;<\/span>`,
+								'4': `<span data-toggle="tooltip" data-placement="top" title="Fivefilters (see Data Collection Process for details)">&#x278D;<\/span>`,
+								'5': `<span data-toggle="tooltip" data-placement="top" title="Scrapy (see Data Collection Process for details)">&#x278E;<\/span>`,
+								'6': `<span data-toggle="tooltip" data-placement="top" title="Websearch (see Data Collection Process for details)">&#x278F;<\/span>`,
+								'7': `<span data-toggle="tooltip" data-placement="top" title="Python Transformation (see Data Collection Process for details)">&#x2790;<\/span>`,
+								',': ''
+							}[m];
+						}) + comment + '</div>';
+					}, orderable: false}
+				],
+				footerCallback: function ( row, data, start, end, display ) {
+					var api = this.api(), data;
+					// Total over all pages
+					total = api
+						.column( 6 )
+						.data()
+						.reduce( function (a, b) {
+							return a + b;
+						}, 0 );
+		 
+					// Total over this page
+					pageTotal = api
+						.column( 6, { page: 'current'} )
+						.data()
+						.reduce( function (a, b) {
+							return a + b;
+						}, 0 );
+		 
+					// Update footer
+					$( api.column( 6 ).footer() ).html(
+						pageTotal == total ?
+							pageTotal.toLocaleString('en-US'):
+							pageTotal.toLocaleString('en-US')+' of '+ total.toLocaleString('en-US') +' items'
+					);
+				},
+				headerCallback: function (thead, data, start, end, display) {
+					var api = this.api(), data;
+					$( api.column( 3 ).header() ).html(
+					'<a href="#" data-toggle="tooltip" data-placement="top" title="Type of the source media, i.e. Blog, News Website or Printed Newspaper.">Media Type</a>'
+					);
+					$( api.column( 4 ).header() ).html(
+					'<a href="#" data-toggle="tooltip" data-placement="top" title="The country the source is from, i.e. Australia, Germany, Lebanon, Switzerland, Turkey or USA.">Country</a>'
+					);
+					$( api.column( 5 ).header() ).html(
+					'<a href="#" data-toggle="tooltip" data-placement="top" title="The predominant language of the source detected by Python package langdetect, i.e. Arabic, English, German or Turkish. There are tooltips indicating if a source is multilingual. For more information see Additional Notes on Data Set.">Language</a>'
+					);
+					$( api.column( 6 ).header() ).html(
+					'<a href="#" data-toggle="tooltip" data-placement="top" title="Number of items collected for a source in the crawling period">Items collected</a>'
+					);
+					$( api.column( 7 ).header() ).html(
+					'<a href="#" data-toggle="tooltip" data-placement="top" title="The column shows the duplicate value and the sample size used to calculate it as described in section Additional Notes.">Duplicates collected</a>'
+					);
+					$( api.column( 8 ).header() ).html(
+					'<a href="#" data-toggle="tooltip" data-placement="top" title="The 28 day moving average shows the average of daily articles collected within a four week period. Click on graphic for a detailed view.">Moving average</a>'
+					);
+					$( api.column( 9 ).header() ).html(
+					'<a href="#" data-toggle="tooltip" data-placement="top" title="Detailed view of the source, containing daily articles collected, moving average.">Details</a>'
+					);
+					$( api.column( 10 ).header() ).html(
+					'<a href="#" data-toggle="tooltip" data-placement="top" title="The process steps used. For a description of each step, see section Data Collection Process. If additional comments for anomalies exist, they can be read by hovering over the speech bubble.">Process / Comments</a>'
+					);
+				}
+			} );
+		} );
+
+		
+		$('#report')
+			.removeClass( 'display' )
+			.addClass('table table-striped table-bordered');
+			
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();   
+		});
+		</script>
+    </body>
+</html>

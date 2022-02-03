@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>University of Mannheim | Mediated Contestation in Comparative Perspective project | Documentation - Text Data Collection - Collection Process</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="../../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../common/medcon.css"/>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Collection Process - Plain Text Data</h3>
+					<p>
+						This section describes in detail how the items were collected. Different crawling and extraction approaches had to be used depending on the source. The section <a href="../descriptive-statistics-ptd" data-role="internal">Statistics Plain Text Data</a> shows which approach was applied to which source.
+					</p>
+					<h3>Process Overview</h3>
+					<figure>
+					  <img src="overview.svg" alt="Crawling process overview">
+					  <figcaption>An overview of the steps in crawling process.</figcaption>
+					</figure>
+					<h3>Process Steps</h3>
+					<ol>
+						<li>
+							<div class="list-head">Kimono</div>
+							<p>
+								For news websites that did not provide their own RSS feed, Kimono by <a href="https://www.kimonolabs.com/" target="_new">kimonolabs.com</a> was used to create a custom RSS feed. Kimono is a visual crawling solution that can extract reoccurring parts from websites and convert them into several machine-readable formats. The parts that needed to be extracted were defined using the Kimono Chrome extension and then the websites’ item headlines and links were converted into RSS format once a day. Unfortunately, the Kimono cloud service was closed during the crawling period, so Kimono Desktop was deployed to a Windows Virtual Machine and automated using a Python Script and the Kimono API. 
+							</p>
+						</li>
+						<li>
+							<div class="list-head"><a name="java"></a>Java Crawler</div>
+							<p>
+								For the continuous crawling, a Java-based crawler was developed using <a href="https://rometools.github.io/rome/" target="_new">ROME</a>. ROME was used to read the RSS feeds and extract the article links. The links were then crawled using FiveFilters (see below) and the article plain text was created using <a href="https://jsoup.org/" target="_new">JSOUP</a> and <a href="http://www.unbescape.org/" target="_new">Unbescape</a> (see XML/HTML to Text Cleanup).
+							</p>
+						</li>
+						<li>
+							<div class="list-head"><a name="splash"></a>Splash</div>
+							<p>
+								The source pi-news.net used JavaScript and XHR to fetch the news item from their server, instead of providing it with the first request. This page had to be rendered using <a href="http://splash.readthedocs.io/en/stable/api.html" target="_new">Splash</a>, so the source code was complete when running the content extraction.
+							</p>
+						</li>
+						<li>
+							<div class="list-head"><a name="fivefilters"></a>Fivefilters</div>
+							<p>
+								To extract the plain text from the news websites, it was necessary to remove elements from the HTML source that did not belong to the item content, i.e. design elements, navigational elements, advertising and so on. <a href="http://fivefilters.org/content-only/">Fivefilters Full-Text</a>, a heuristic full-text extraction service was used to extract the item content into an RSS format. Fivefilters can retrieve and combine multipage articles and provide a clean XML result comprising all elements of the item using advanced heuristics. If the extraction failed for a particular source, for example for tagesschau.de, the extraction was configured manually by specifying XPath / CSS selectors.
+							</p>
+						</li>
+						<li>
+							<div class="list-head">Scrapy</div>
+							<p>
+								For some sources, it was necessary to develop special crawlers. The first problem was that foraus.ch changed their website to an Angular.JS based front-end that could not be crawled using the Java-based crawler. redstate.com used Cloudflare's DDOS protection that requires CAPTCHAS to be solved before the article content is displayed.
+							</p>
+							<p>
+								The <a href="https://scrapy.org/" target="_new">Scrapy Framework</a> for Python was used in these cases to develop special crawlers. In the case of foraus.ch, the articles were extracted directly from the backend that gets called by the Angular.JS front-end app. For redstate.com the captchas were solved manually and the cookie was then used with an <a href="https://nginx.org/en/" target="_new">Nginx</a> proxy and a Python script to extract as many articles as possible as long as the cookie was valid.
+							</p>
+						</li>
+						<li>
+							<div class="list-head">Websearch</div>
+							<p>
+								washingtonpost.com that did not get crawled as several RSS feeds changed during the crawling period, which was discovered late. Therefore, the item metadata, i.e. date and headline, were extracted using Scrapy from <a href="http://pqasb.pqarchiver.com/washingtonpost/advancedsearch.html?pqatl=pqcom" target="_new">pqarchiver.com</a>. After that a Google and BING search with the metadata was used to find the URLs of the original items on washingtonpost.com. The list that was generated by this procedure was then crawled using another <a href="https://scrapy.org/" target="_new">Python/Scrapy</a> script.
+							</p>
+						</li>
+						<li>
+							<div class="list-head">Python Transformation</div>
+							<p>
+								Some sources provided item collections in various structured data formats (XML, XLSX, and HTML). Those formats were parsed and transformed to integrate them into the target database using Python Scripts. A JSON-based format was used as an intermediate step before loading those articles into the database. 
+							</p>
+						</li>
+					</ol>
+					<h3>XML/HTML to Text Cleanup</h3>
+					<p>
+						For the extraction of the plain text from the XML/HTML source, the JAVA packages <a href="https://jsoup.org/" target="_new">JSOUP</a> and <a href="http://www.unbescape.org/" target="_new">Unbescape</a> were used.
+						Because Fivefilters converted HTML into XML, the first step was to reverse the XML escaping by using the HTMLEscape.unescape function. After that the resulting HTML code was parsed using Jsoup, and the Jsoup.cleanup function was applied. Finally remaining HTML entities were removed by applying the HTMLEscape.unescape function a second time. 
+					</p>
+					<p>
+						For the preservation of newlines and a better readability of the item, newlines were added after headlines, i.e. &lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; and &lt;h6&gt; tags and after each line break in the item, i.e. a &lt;br&gt; tag. This way line breaks that are naturally displayed by the browser, i.e. after a headline or a paragraph, will also be included in the plain text version of the article generated by this step.
+					</p>
+					<p>
+						The following is a listing of the code of the cleanup function used:
+					</p>
+					<iframe frameborder="1" src="cleanup.html" width="80%" height="550"></iframe>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		
+		<script type="text/javascript">window.linkLevel = 3; window.sectionID = 'collection-process-ptd';</script>		
+		<script type="text/javascript" src="../../../common/common.js"></script>
+		<script type="text/javascript" src='../../subnav.js'></script>
+    </body>
+</html>

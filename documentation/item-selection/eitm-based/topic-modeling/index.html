@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>University of Mannheim | Mediated Contestation in Comparative Perspective project | Documentation - Item Selection - EITM-based - Topic Modeling</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="../../../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../../common/medcon.css"/>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Topic Modeling</h3>
+					<p>
+						This section describes the topic modeling pipeline used to score the relevance of the news items. First, a graphical overview with a brief description of each step is given. After that a detailed account of the pre-processing decisions is given in section <a href="text-pre-processing" data-role="internal">Text Pre-Processing</a>.
+					</p>
+					<h3>Process Overview</h3>
+					<figure style="width: 560px;">
+					  <img src="topicmodeling.svg" alt="Topic modeling process overview" style="width: 100%;" />
+					  <figcaption>An overview of the steps in the topic modeling process.</figcaption>
+					</figure>
+					
+					<h3>Process Steps</h3>
+					<ol>
+						<li>
+							<div class="list-head">Pre-Process Texts</div>
+							<p>
+								The first step in the topic modeling pipeline was to pre-process the news items for use with the LDA algorithm. After the pre-processing, every item was represented as a word vector representing the significant words in that document. The details are described in section <a href="text-pre-processing" data-role="internal">Text Pre-Processing</a>.
+							</p>
+						</li>
+						<li>
+							<div class="list-head">Build Corpus</div>
+							<p>
+								The second step involved combining the created document word vectors into a document corpus. We implemented the topic model pipeline using <a target="_blank" href="https://radimrehurek.com/gensim/index.html">gensim</a> by Radim Rehurek. The documents were therefore converted into a matrix-market corpus, as expected by the next step.
+							</p>
+						</li>
+						<li>
+							<div class="list-head">Train Topic Model</div>
+							<p>
+								The next step is the training of the topic model. For the topic model, we used gensim’s LdaModel implementation. For each language and country topic models with 100, 500 and 1000 topics were created. One of the three models was selected in the next step. All topic models were trained with three passes. 
+							</p>
+						</li>
+						<li>
+							<div class="list-head">Select Relevant Topics</div>
+							<p>
+								Human coders evaluated the topic models. The topics in each topic model were ranked by cumulating the probability of the expert-generated keywords in the topic.
+							</p>
+							<p>
+								This gives a cumulative match probability (CMP) for each topic. The topics were then ordered by CMP from high to low and the top 20% of topics in each topic model were selected. These topics were then cross-checked by human coders for relevance.
+							</p>
+							<p>
+								Additionally, the human coders scored the coherence of words in each topic. This was then used to calculate a quality score and select the model with the optimal number of topics (100, 500 and 1000 topics). According to the performance criteria, the models with 500 topics performed best in each case. For a further description see section <a href="model-evaluation" data-role="internal">Model Evaluation</a> and <a href="topic-selection" data-role="internal">Topic Selection</a>.
+							</p>
+						</li>
+						<li>
+							<div class="list-head">Score Items</div>
+							<p>
+								The selected topic model was used to calculate the probability for each document that it contains one of the selected relevant topics. This was done by cumulating each probability for each relevant topic into a relevance score. The relevance scores for all documents were then used in the Material Identification and Sampling step.
+							</p>
+						</li>
+					</ol>
+					<h4>Material</h4>
+					<ul>
+						<li><a href="../../../files/Appendix - Topic Modeling.zip" download="" target="_blank">Topic Modeling Python Scripts [ZIP]</a></li>
+						<li><a href="../../../files/Appendix - Turkish Lemmatizer.zip" download="" target="_blank">Text Pre-processing Turkish Lemmatization Java Source [ZIP]</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		
+		<script type="text/javascript">window.linkLevel = 4; window.sectionID = 'topic-modeling';</script>		
+		<script type="text/javascript" src="../../../../common/common.js"></script>
+		<script type="text/javascript" src='../../../subnav.js'></script>
+    </body>
+</html>

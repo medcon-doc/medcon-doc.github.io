@@ -1,0 +1,2380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generiert durch Microsoft Visio, SVG Export overview.svg Page-3 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.44083in" height="4.86614in"
+		viewBox="0 0 535.74 350.362" xml:space="preserve" color-interpolation-filters="sRGB" class="st14">
+	<v:documentProperties v:langID="1033" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;visibility:hidden}
+		.st2 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {fill:#000000;font-family:Calibri;font-size:0.666664em;font-weight:bold}
+		.st5 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.08695652173913}
+		.st7 {fill:#000000;font-family:Calibri;font-size:0.666664em}
+		.st8 {fill:#ffffff}
+		.st9 {marker-end:url(#mrkr12-32);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {fill:none}
+		.st11 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st12 {font-size:1em}
+		.st13 {stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend12">
+			<path d="M 3 1 L 0 0 L 3 -1 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr12-32" class="st6" v:arrowType="12" v:arrowSize="2" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend12" transform="scale(-11.5,-11.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="8" v:index="4" v:groupContext="foregroundPage">
+		<title>Zeichenblatt-3</title>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="19" v:shadowOffsetX="9" v:shadowOffsetY="-9"/>
+		<g id="group68-1" transform="translate(0.12,5.68434E-14)" v:mID="68" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Diagram, Frame.68</title>
+			<g id="shape69-2" v:mID="69" v:groupContext="shape">
+				<title>Tabelle.69</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="0.120009" width="535.5" height="350.242" class="st1"/>
+				<rect x="0" y="0.120009" width="535.5" height="350.242" class="st2"/>
+			</g>
+			<g id="shape70-5" v:mID="70" v:groupContext="shape">
+				<title>Tabelle.70</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="53.76" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape71-7" v:mID="71" v:groupContext="shape">
+				<title>Tabelle.71</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="267.75" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape72-9" v:mID="72" v:groupContext="shape">
+				<title>Tabelle.72</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="267.75" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape73-11" v:mID="73" v:groupContext="shape">
+				<title>Tabelle.73</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="267.75" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape74-13" v:mID="74" v:groupContext="shape">
+				<title>Tabelle.74</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="267.75" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape75-15" v:mID="75" v:groupContext="shape">
+				<title>Tabelle.75</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="267.75" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape76-17" v:mID="76" v:groupContext="shape">
+				<title>Tabelle.76</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="267.75" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape77-19" v:mID="77" v:groupContext="shape">
+				<title>Tabelle.77</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="267.75" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape78-21" v:mID="78" v:groupContext="shape" transform="translate(0,-332.242)">
+				<title>Tabelle.78</title>
+				<desc>Data Preparation Process</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="53.9517" cy="341.362" width="93.81" height="18"/>
+				<path d="M0 350.36 L98.9 350.36 L107.9 341.36 L107.9 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="11.96" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Data Preparation Process</text>			</g>
+		</g>
+		<g id="group196-24" transform="translate(3.13309,-301.323)" v:mID="196" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(7):26"/>
+				<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Flow,Activity, Initial,Final.1033</title>
+			<g id="shape197-25" v:mID="197" v:groupContext="shape">
+				<title>Tabelle.197</title>
+			</g>
+			<g id="shape198-27" v:mID="198" v:groupContext="shape" transform="translate(3.2632,-3.2632)">
+				<title>Tabelle.198</title>
+				<desc>H</desc>
+				<v:textBlock v:margins="rect(2,2,1,2)"/>
+				<v:textRect cx="5.43866" cy="344.923" width="17.41" height="17.4037"/>
+				<path d="M0 344.92 A5.43866 5.43866 0 1 1 10.88 344.92 A5.43866 5.43866 0 0 1 0 344.92 Z" class="st5"/>
+			</g>
+			<g id="shape199-29" v:mID="199" v:groupContext="shape" transform="translate(258.621,587.228) rotate(135)">
+				<title>Tabelle.199</title>
+			</g>
+		</g>
+		<g id="group200-33" transform="translate(477.298,-13.7981)" v:mID="200" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(7):26"/>
+				<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="State" v:prompt="" v:val="VT0(6):26"/>
+			</v:userDefs>
+			<title>Flow,Activity, Initial,Final.1037</title>
+			<g id="shape201-34" v:mID="201" v:groupContext="shape">
+				<title>Tabelle.201</title>
+				<path d="M0 341.66 A8.70185 8.70185 0 0 1 17.4 341.66 A8.70185 8.70185 0 1 1 0 341.66 Z" class="st3"/>
+			</g>
+			<g id="shape202-36" v:mID="202" v:groupContext="shape" transform="translate(3.2632,-3.2632)">
+				<title>Tabelle.202</title>
+				<desc>H</desc>
+				<v:textBlock v:margins="rect(2,2,1,2)"/>
+				<v:textRect cx="5.43866" cy="344.923" width="17.41" height="17.4037"/>
+				<path d="M11.59 351.08 L-0.72 338.77" class="st2"/>
+				<path d="M-0.72 351.08 L11.59 338.77" class="st2"/>
+			</g>
+			<g id="shape203-40" v:mID="203" v:groupContext="shape" transform="translate(258.621,587.228) rotate(135)">
+				<title>Tabelle.203</title>
+			</g>
+		</g>
+		<g id="shape205-43" v:mID="205" v:groupContext="shape" transform="translate(150.292,-95.5468)">
+			<title>Object Node.1110</title>
+			<desc>(ptd) Sample of Relevant Material</desc>
+			<v:userDefs>
+				<v:ud v:nameU="Sharpness" v:val="VT0(0.125):26"/>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TextPosition" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TextWidth" v:val="VT0(0.75):1"/>
+				<v:ud v:nameU="TextOffSet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetShapeHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="TextWidth" v:prompt="" v:val="VT0(1.6618698828631):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="59.8273" cy="340.237" width="119.66" height="17.6036"/>
+			<path d="M0 350.36 L119.65 350.36 L119.65 330.11 L0 330.11 L0 350.36 Z" class="st3"/>
+			<text x="4.91" y="342.64" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>(ptd) Sample of Relevant Material</text>		</g>
+		<g id="shape206-46" v:mID="206" v:groupContext="shape" transform="translate(150.291,-233.724)">
+			<title>Object Node.1104</title>
+			<desc>Data Dump</desc>
+			<v:userDefs>
+				<v:ud v:nameU="Sharpness" v:val="VT0(0.125):26"/>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TextPosition" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TextWidth" v:val="VT0(0.75):1"/>
+				<v:ud v:nameU="TextOffSet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetShapeHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="TextWidth" v:prompt="" v:val="VT0(1.6618698828631):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="59.8273" cy="340.237" width="46.61" height="17.6036"/>
+			<path d="M0 350.36 L119.65 350.36 L119.65 330.11 L0 330.11 L0 350.36 Z" class="st3"/>
+			<text x="41.43" y="342.64" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Data Dump</text>		</g>
+		<g id="group207-49" transform="translate(150.291,-189.849)" v:mID="207" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="F" v:val="VT0(1):26"/>
+				<v:ud v:nameU="Format" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ActiveObject" v:prompt="0,0626" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Class</title>
+			<g id="shape208-50" v:mID="208" v:groupContext="shape" transform="translate(119.655,5.68434E-14)">
+				<title>Tabelle.208</title>
+				<path d="M0 350.36 L0 330.11 L0 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape209-53" v:mID="209" v:groupContext="shape">
+				<title>Tabelle.209</title>
+				<path d="M119.65 350.36 L0 350.36 L119.65 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape210-56" v:mID="210" v:groupContext="shape">
+				<title>Tabelle.210</title>
+				<path d="M119.65 350.36 L0 350.36 L119.65 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape211-59" v:mID="211" v:groupContext="shape">
+				<title>Tabelle.211</title>
+				<path d="M119.65 350.36 L0 350.36 L119.65 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape212-62" v:mID="212" v:groupContext="shape">
+				<title>Tabelle.212</title>
+				<desc>Relevance Scores</desc>
+				<v:userDefs>
+					<v:ud v:nameU="TabSize" v:val="VT0(0.125):0"/>
+					<v:ud v:nameU="TabSize" v:prompt="" v:val="VT0(0.070312501676381):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="59.8273" cy="340.237" width="119.66" height="20.25"/>
+				<path d="M119.65 350.36 L119.65 330.11 L0 330.11 L0 350.36 L119.65 350.36 ZM0 350.36 L0 330.11 L0 350.36 ZM119.65
+							 330.11 L119.65 350.36 L119.65 330.11 Z" class="st8"/>
+				<path d="M119.65 350.36 L119.65 330.11" class="st2"/>
+				<path d="M0 350.36 L0 330.11" class="st2"/>
+				<path d="M0 330.11 L119.65 330.11" class="st2"/>
+				<path d="M0 350.36 L119.65 350.36" class="st2"/>
+				<text x="31.76" y="342.64" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Relevance Scores</text>			</g>
+		</g>
+		<g id="group213-69" transform="translate(38.9099,-142.599)" v:mID="213" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Interaction Use</title>
+			<g id="shape214-70" v:mID="214" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.214</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="323.362" width="105.75" height="27" class="st3"/>
+			</g>
+			<g id="shape215-72" v:mID="215" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.215</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="70.46" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape216-74" v:mID="216" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.216</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape217-76" v:mID="217" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.217</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape218-78" v:mID="218" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.218</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape219-80" v:mID="219" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.219</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape220-82" v:mID="220" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.220</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape221-84" v:mID="221" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.221</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape222-86" v:mID="222" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.222</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape223-88" v:mID="223" v:groupContext="shape" transform="translate(-9,-9)">
+				<title>Tabelle.223</title>
+				<desc>Classification</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_3" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="26.717" cy="341.362" width="53.44" height="18"/>
+				<path d="M0 350.36 L44.43 350.36 L53.43 341.36 L53.43 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="4.91" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Classification</text>			</g>
+		</g>
+		<g id="group224-91" transform="translate(38.9099,-92.1718)" v:mID="224" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Interaction Use.106</title>
+			<g id="shape225-92" v:mID="225" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.225</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="323.362" width="105.75" height="27" class="st3"/>
+			</g>
+			<g id="shape226-94" v:mID="226" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.226</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="70.46" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape227-96" v:mID="227" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.227</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape228-98" v:mID="228" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.228</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape229-100" v:mID="229" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.229</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape230-102" v:mID="230" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.230</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape231-104" v:mID="231" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.231</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape232-106" v:mID="232" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.232</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape233-108" v:mID="233" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.233</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape234-110" v:mID="234" v:groupContext="shape" transform="translate(-9,-9)">
+				<title>Tabelle.234</title>
+				<desc>Sampling</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_3" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="26.717" cy="341.362" width="40.36" height="18"/>
+				<path d="M0 350.36 L44.43 350.36 L53.43 341.36 L53.43 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="11.44" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Sampling</text>			</g>
+		</g>
+		<g id="group235-113" transform="translate(38.9099,-186.474)" v:mID="235" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Interaction Use.117</title>
+			<g id="shape236-114" v:mID="236" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.236</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="323.362" width="105.75" height="27" class="st3"/>
+			</g>
+			<g id="shape237-116" v:mID="237" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.237</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="77.8728" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape238-118" v:mID="238" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.238</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape239-120" v:mID="239" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.239</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape240-122" v:mID="240" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.240</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape241-124" v:mID="241" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.241</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape242-126" v:mID="242" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.242</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape243-128" v:mID="243" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.243</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape244-130" v:mID="244" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.244</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape245-132" v:mID="245" v:groupContext="shape" transform="translate(-9,-9)">
+				<title>Tabelle.245</title>
+				<desc>Topic Modeling</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_3" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="30.5585" cy="341.362" width="61.12" height="18"/>
+				<path d="M0 350.36 L52.12 350.36 L61.12 341.36 L61.12 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="4.91" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Topic Modeling</text>			</g>
+		</g>
+		<g id="group246-135" transform="translate(38.9099,-230.349)" v:mID="246" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Interaction Use.128</title>
+			<g id="shape247-136" v:mID="247" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.247</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="323.362" width="105.75" height="27" class="st3"/>
+			</g>
+			<g id="shape248-138" v:mID="248" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.248</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="93.5099" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape249-140" v:mID="249" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.249</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape250-142" v:mID="250" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.250</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape251-144" v:mID="251" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.251</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape252-146" v:mID="252" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.252</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape253-148" v:mID="253" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.253</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape254-150" v:mID="254" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.254</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape255-152" v:mID="255" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.255</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape256-154" v:mID="256" v:groupContext="shape" transform="translate(-9,-9)">
+				<title>Tabelle.256</title>
+				<desc>Text Data Collection</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_3" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="38.3771" cy="341.362" width="76.76" height="18"/>
+				<path d="M0 350.36 L67.75 350.36 L76.75 341.36 L76.75 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="4.91" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Text Data Collection</text>			</g>
+		</g>
+		<g id="group268-157" transform="translate(150.292,-145.974)" v:mID="268" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="F" v:val="VT0(1):26"/>
+				<v:ud v:nameU="Format" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ActiveObject" v:prompt="0,0626" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Class.151</title>
+			<g id="shape269-158" v:mID="269" v:groupContext="shape" transform="translate(119.655,5.68434E-14)">
+				<title>Tabelle.269</title>
+				<path d="M0 350.36 L0 330.11 L0 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape270-161" v:mID="270" v:groupContext="shape">
+				<title>Tabelle.270</title>
+				<path d="M119.65 350.36 L0 350.36 L119.65 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape271-164" v:mID="271" v:groupContext="shape">
+				<title>Tabelle.271</title>
+				<path d="M119.65 350.36 L0 350.36 L119.65 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape272-167" v:mID="272" v:groupContext="shape">
+				<title>Tabelle.272</title>
+				<path d="M119.65 350.36 L0 350.36 L119.65 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape273-170" v:mID="273" v:groupContext="shape">
+				<title>Tabelle.273</title>
+				<desc>(ptd) Finally Relevant Items</desc>
+				<v:userDefs>
+					<v:ud v:nameU="TabSize" v:val="VT0(0.125):0"/>
+					<v:ud v:nameU="TabSize" v:prompt="" v:val="VT0(0.070312501676381):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="59.8273" cy="340.237" width="119.66" height="20.25"/>
+				<path d="M119.65 350.36 L119.65 330.11 L0 330.11 L0 350.36 L119.65 350.36 ZM0 350.36 L0 330.11 L0 350.36 ZM119.65
+							 330.11 L119.65 350.36 L119.65 330.11 Z" class="st8"/>
+				<path d="M119.65 350.36 L119.65 330.11" class="st2"/>
+				<path d="M0 350.36 L0 330.11" class="st2"/>
+				<path d="M0 330.11 L119.65 330.11" class="st2"/>
+				<path d="M0 350.36 L119.65 350.36" class="st2"/>
+				<text x="15.39" y="342.64" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>(ptd) Finally Relevant Items</text>			</g>
+		</g>
+		<g id="shape274-177" v:mID="274" v:groupContext="shape" transform="translate(135.66,-243.849) rotate(2.07253E-05)">
+			<title>Message (seq.diag)</title>
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LostFound" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<path d="M0 350.36 L14.63 350.36" class="st9"/>
+		</g>
+		<g id="shape275-182" v:mID="275" v:groupContext="shape" transform="translate(135.66,-199.974) rotate(2.28813E-05)">
+			<title>Message (seq.diag).159</title>
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LostFound" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<path d="M0 350.36 L14.63 350.36" class="st9"/>
+		</g>
+		<g id="shape276-187" v:mID="276" v:groupContext="shape" transform="translate(135.66,-156.099) rotate(9.4526E-07)">
+			<title>Message (seq.diag).160</title>
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LostFound" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<path d="M0 350.36 L14.63 350.36" class="st9"/>
+		</g>
+		<g id="shape277-192" v:mID="277" v:groupContext="shape" transform="translate(135.66,-105.672)">
+			<title>Message (seq.diag).161</title>
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LostFound" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<path d="M0 350.36 L14.63 350.36" class="st9"/>
+		</g>
+		<g id="group279-197" transform="translate(210.118,-233.724)" v:mID="279" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.375):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-3.0653336606103):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-2.8915435023573):32"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(1.7685196224464):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.28124992314138):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Routable Relationship</title>
+			<g id="shape280-198" v:mID="280" v:groupContext="shape" transform="translate(-54.1989,9.76869)">
+				<title>Tabelle.280</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape281-201" v:mID="281" v:groupContext="shape" transform="translate(-81.4018,13.4778)">
+				<title>Tabelle.281</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape282-204" v:mID="282" v:groupContext="shape" transform="translate(-83.3411,0.91443)">
+				<title>Tabelle.282</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape283-207" v:mID="283" v:groupContext="shape" transform="translate(-60.498,-2.43945)">
+				<title>Tabelle.283</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape279-210" v:mID="279" v:groupContext="groupContent">
+				<path d="M0 350.36 L0 355.6 L-127.33 355.6 L-127.33 370.61" class="st9"/>
+			</g>
+		</g>
+		<g id="group284-215" transform="translate(210.118,-189.849)" v:mID="284" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.375):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-3.0653336688998):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-2.8915435012345):32"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(1.7685196224464):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.28124991549473):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Routable Relationship.171</title>
+			<g id="shape285-216" v:mID="285" v:groupContext="shape" transform="translate(-54.1989,9.76869)">
+				<title>Tabelle.285</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape286-219" v:mID="286" v:groupContext="shape" transform="translate(-81.4018,13.4778)">
+				<title>Tabelle.286</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape287-222" v:mID="287" v:groupContext="shape" transform="translate(-83.3411,0.914429)">
+				<title>Tabelle.287</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape288-225" v:mID="288" v:groupContext="shape" transform="translate(-60.498,-2.43945)">
+				<title>Tabelle.288</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape284-228" v:mID="284" v:groupContext="groupContent">
+				<path d="M0 350.36 L0 355.6 L-127.33 355.6 L-127.33 370.61" class="st9"/>
+			</g>
+		</g>
+		<g id="group289-233" transform="translate(210.119,-145.974)" v:mID="289" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.375):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-2.9629073486703):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-2.9042463852092):32"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(1.7685333333333):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.3722467613223):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Routable Relationship.176</title>
+			<g id="shape290-234" v:mID="290" v:groupContext="shape" transform="translate(-51.0412,16.4745)">
+				<title>Tabelle.290</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape291-237" v:mID="291" v:groupContext="shape" transform="translate(-76.668,21.0559)">
+				<title>Tabelle.291</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape292-240" v:mID="292" v:groupContext="shape" transform="translate(-81.1924,8.65653)">
+				<title>Tabelle.292</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape293-243" v:mID="293" v:groupContext="shape" transform="translate(-57.0264,4.22775)">
+				<title>Tabelle.293</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape289-246" v:mID="289" v:groupContext="groupContent">
+				<path d="M0 350.36 L0 362.15 L-127.33 362.15 L-127.33 377.16" class="st9"/>
+			</g>
+		</g>
+		<g id="group294-251" transform="translate(14.5918,-301.025)" v:mID="294" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.125):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="RealBeginX" v:prompt="" v:val="VT0(0.037247634251913):1"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(-0.21275236574809):1"/>
+				<v:ud v:nameU="Navigability" v:prompt="" v:val="VT0(0.037247634251913):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Straight Relationship</title>
+			<g id="shape295-252" v:mID="295" v:groupContext="shape" transform="translate(1.08436,-14.1732)">
+				<title>Tabelle.295</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape296-255" v:mID="296" v:groupContext="shape" transform="translate(14.662,-14.1732)">
+				<title>Tabelle.296</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape297-258" v:mID="297" v:groupContext="shape" transform="translate(14.662,-1.5732)">
+				<title>Tabelle.297</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape298-261" v:mID="298" v:groupContext="shape" transform="translate(1.08436,-1.5732)">
+				<title>Tabelle.298</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape294-264" v:mID="294" v:groupContext="groupContent">
+				<path d="M2.68 341.36 L15.32 341.36" class="st9"/>
+			</g>
+		</g>
+		<g id="group299-269" transform="translate(38.9099,-296.525)" v:mID="299" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Interaction Use.139</title>
+			<g id="shape300-270" v:mID="300" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.300</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="323.362" width="105.75" height="27" class="st3"/>
+			</g>
+			<g id="shape301-272" v:mID="301" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.301</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="80.0838" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape302-274" v:mID="302" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.302</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape303-276" v:mID="303" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.303</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape304-278" v:mID="304" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.304</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape305-280" v:mID="305" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.305</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape306-282" v:mID="306" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.306</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape307-284" v:mID="307" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.307</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape308-286" v:mID="308" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.308</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape309-288" v:mID="309" v:groupContext="shape" transform="translate(-9,-9)">
+				<title>Tabelle.309</title>
+				<desc>Media Selection</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_3" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="31.664" cy="341.362" width="63.33" height="18"/>
+				<path d="M0 350.36 L54.33 350.36 L63.33 341.36 L63.33 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="4.91" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Media Selection</text>			</g>
+		</g>
+		<g id="shape310-291" v:mID="310" v:groupContext="shape" transform="translate(150.291,-299.903)">
+			<title>Object Node.310</title>
+			<desc>List of Selected Media Sources</desc>
+			<v:userDefs>
+				<v:ud v:nameU="Sharpness" v:val="VT0(0.125):26"/>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TextPosition" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TextWidth" v:val="VT0(0.75):1"/>
+				<v:ud v:nameU="TextOffSet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetShapeHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="TextWidth" v:prompt="" v:val="VT0(1.6618698828631):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="59.8273" cy="340.237" width="108.51" height="17.6036"/>
+			<path d="M0 350.36 L119.65 350.36 L119.65 330.11 L0 330.11 L0 350.36 Z" class="st3"/>
+			<text x="10.48" y="342.64" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>List of Selected Media Sources</text>		</g>
+		<g id="shape311-294" v:mID="311" v:groupContext="shape" transform="translate(135.598,-310.025) rotate(-0.0100985)">
+			<title>Message (seq.diag).311</title>
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LostFound" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<path d="M0 350.36 L14.63 350.36" class="st9"/>
+		</g>
+		<g id="group312-299" transform="translate(298.665,-310.028)" v:mID="312" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.375):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-0.16733884519027):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(-0.54687499850988):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.7316296052137):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Routable Relationship.312</title>
+			<desc>[non-plain text data (nptd) ]</desc>
+			<g id="shape313-300" v:mID="313" v:groupContext="shape" transform="translate(50.9761,-3.13395)">
+				<title>Tabelle.313</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape314-303" v:mID="314" v:groupContext="shape" transform="translate(52.9183,3.38345)">
+				<title>Tabelle.314</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape315-306" v:mID="315" v:groupContext="shape" transform="translate(48.6784,15.8074)">
+				<title>Tabelle.315</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape316-309" v:mID="316" v:groupContext="shape" transform="translate(25.5203,-3.13395)">
+				<title>Tabelle.316</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape312-312" v:mID="312" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="40.5" cy="368.166" width="100.43" height="17.6036"/>
+				<path d="M0 350.36 L39.37 350.36 L39.37 403.04" class="st9"/>
+				<rect v:rectContext="textBkgnd" x="-4.80806" y="363.366" width="90.6163" height="9.59985" class="st11"/>
+				<text x="-4.81" y="370.57" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>[non-plain text data (nptd) ]</text>			</g>
+		</g>
+		<g id="shape323-319" v:mID="323" v:groupContext="shape" transform="translate(403.444,-230.249)">
+			<title>Object Node.323</title>
+			<desc>Collection of PDF Files and Physical Newspapers</desc>
+			<v:userDefs>
+				<v:ud v:nameU="Sharpness" v:val="VT0(0.125):26"/>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TextPosition" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TextWidth" v:val="VT0(0.75):1"/>
+				<v:ud v:nameU="TextOffSet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetShapeHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="TextWidth" v:prompt="" v:val="VT0(1.7202461951189):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="61.9289" cy="336.76" width="91.77" height="27.2035"/>
+			<path d="M0 350.36 L123.86 350.36 L123.86 323.16 L0 323.16 L0 350.36 Z" class="st3"/>
+			<text x="26.06" y="334.36" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Collection of PDF Files<v:newlineChar/><tspan
+						x="20.95" dy="1.2em" class="st12">and Physical Newspapers</tspan></text>		</g>
+		<g id="group330-323" transform="translate(294.165,-142.597)" v:mID="330" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Interaction Use.330</title>
+			<g id="shape331-324" v:mID="331" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.331</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="323.362" width="105.75" height="27" class="st3"/>
+			</g>
+			<g id="shape332-326" v:mID="332" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.332</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="70.46" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape333-328" v:mID="333" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.333</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape334-330" v:mID="334" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.334</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape335-332" v:mID="335" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.335</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape336-334" v:mID="336" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.336</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape337-336" v:mID="337" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.337</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape338-338" v:mID="338" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.338</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape339-340" v:mID="339" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.339</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape340-342" v:mID="340" v:groupContext="shape" transform="translate(-9,-9)">
+				<title>Tabelle.340</title>
+				<desc>Classification</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_3" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="26.717" cy="341.362" width="53.44" height="18"/>
+				<path d="M0 350.36 L44.43 350.36 L53.43 341.36 L53.43 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="4.91" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Classification</text>			</g>
+		</g>
+		<g id="group363-345" transform="translate(294.165,-230.351)" v:mID="363" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Interaction Use.363</title>
+			<g id="shape364-346" v:mID="364" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.364</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="323.362" width="105.75" height="27" class="st3"/>
+			</g>
+			<g id="shape365-348" v:mID="365" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.365</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="93.5099" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape366-350" v:mID="366" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.366</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape367-352" v:mID="367" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.367</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape368-354" v:mID="368" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.368</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape369-356" v:mID="369" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.369</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape370-358" v:mID="370" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.370</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape371-360" v:mID="371" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.371</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape372-362" v:mID="372" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.372</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape373-364" v:mID="373" v:groupContext="shape" transform="translate(-9,-9)">
+				<title>Tabelle.373</title>
+				<desc>Text Data Collection</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_3" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="38.3771" cy="341.362" width="76.76" height="18"/>
+				<path d="M0 350.36 L67.75 350.36 L76.75 341.36 L76.75 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="4.91" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Text Data Collection</text>			</g>
+		</g>
+		<g id="group374-367" transform="translate(403.012,-145.972)" v:mID="374" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="F" v:val="VT0(1):26"/>
+				<v:ud v:nameU="Format" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ActiveObject" v:prompt="0,0626" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Class.374</title>
+			<g id="shape375-368" v:mID="375" v:groupContext="shape" transform="translate(124.72,5.68434E-14)">
+				<title>Tabelle.375</title>
+				<path d="M0 350.36 L0 330.11 L0 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape376-371" v:mID="376" v:groupContext="shape">
+				<title>Tabelle.376</title>
+				<path d="M124.72 350.36 L0 350.36 L124.72 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape377-374" v:mID="377" v:groupContext="shape">
+				<title>Tabelle.377</title>
+				<path d="M124.72 350.36 L0 350.36 L124.72 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape378-377" v:mID="378" v:groupContext="shape">
+				<title>Tabelle.378</title>
+				<path d="M124.72 350.36 L0 350.36 L124.72 350.36 Z" class="st8"/>
+			</g>
+			<g id="shape379-380" v:mID="379" v:groupContext="shape">
+				<title>Tabelle.379</title>
+				<desc>(nptd) Finally Relevant Items</desc>
+				<v:userDefs>
+					<v:ud v:nameU="TabSize" v:val="VT0(0.125):0"/>
+					<v:ud v:nameU="TabSize" v:prompt="" v:val="VT0(0.070312501676381):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="62.3602" cy="340.237" width="124.73" height="20.25"/>
+				<path d="M124.72 350.36 L124.72 330.11 L0 330.11 L0 350.36 L124.72 350.36 ZM0 350.36 L0 330.11 L0 350.36 ZM124.72
+							 330.11 L124.72 350.36 L124.72 330.11 Z" class="st8"/>
+				<path d="M124.72 350.36 L124.72 330.11" class="st2"/>
+				<path d="M0 350.36 L0 330.11" class="st2"/>
+				<path d="M0 330.11 L124.72 330.11" class="st2"/>
+				<path d="M0 350.36 L124.72 350.36" class="st2"/>
+				<text x="15.83" y="342.64" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>(nptd) Finally Relevant Items</text>			</g>
+		</g>
+		<g id="shape380-387" v:mID="380" v:groupContext="shape" transform="translate(390.915,-243.851)">
+			<title>Message (seq.diag).380</title>
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LostFound" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<path d="M0 350.36 L12.53 350.36" class="st9"/>
+		</g>
+		<g id="shape382-392" v:mID="382" v:groupContext="shape" transform="translate(390.915,-156.097)">
+			<title>Message (seq.diag).382</title>
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LostFound" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<path d="M0 350.36 L12.1 350.36" class="st9"/>
+		</g>
+		<g id="group384-397" transform="translate(465.372,-230.249)" v:mID="384" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.375):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-2.3827488225037):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-2.9553291180709):32"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(1.7685066726426):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.84238661973741):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Routable Relationship.384</title>
+			<g id="shape385-398" v:mID="385" v:groupContext="shape" transform="translate(-34.5063,51.0449)">
+				<title>Tabelle.385</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape386-401" v:mID="386" v:groupContext="shape" transform="translate(-49.849,58.9544)">
+				<title>Tabelle.386</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape387-404" v:mID="387" v:groupContext="shape" transform="translate(-67.3648,49.8115)">
+				<title>Tabelle.387</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape388-407" v:mID="388" v:groupContext="shape" transform="translate(-39.2204,38.6628)">
+				<title>Tabelle.388</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape384-410" v:mID="384" v:groupContext="groupContent">
+				<path d="M0 350.36 L0 396.11 L-127.33 396.11 L-127.33 411.01" class="st9"/>
+			</g>
+		</g>
+		<g id="group394-415" transform="translate(465.372,-145.972)" v:mID="394" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.375):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-2.9795726840903):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-2.8858608159649):32"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(1.7685066726426):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.37222497224659):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Routable Relationship.394</title>
+			<g id="shape395-416" v:mID="395" v:groupContext="shape" transform="translate(-51.8326,15.2887)">
+				<title>Tabelle.395</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape396-419" v:mID="396" v:groupContext="shape" transform="translate(-77.8742,19.9315)">
+				<title>Tabelle.396</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape397-422" v:mID="397" v:groupContext="shape" transform="translate(-81.9805,7.49653)">
+				<title>Tabelle.397</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape398-425" v:mID="398" v:groupContext="shape" transform="translate(-58.2717,3.09848)">
+				<title>Tabelle.398</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape394-428" v:mID="394" v:groupContext="groupContent">
+				<path d="M0 350.36 L0 361.19 L-127.33 361.19 L-127.33 377.16" class="st9"/>
+			</g>
+		</g>
+		<g id="group399-433" transform="translate(280.665,-301.028)" v:mID="399" v:groupContext="group">
+			<title>Decision, Merge</title>
+			<g id="shape400-434" v:mID="400" v:groupContext="shape">
+				<title>Tabelle.400</title>
+				<path d="M0 341.36 L9 332.36 L18 341.36 L9 350.36 L0 341.36 Z" class="st3"/>
+			</g>
+			<g id="shape401-436" v:mID="401" v:groupContext="shape" transform="translate(5,-7.2)">
+				<title>Tabelle.401</title>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st1"/>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st13"/>
+			</g>
+			<g id="shape402-439" v:mID="402" v:groupContext="shape" transform="translate(5,-7.2)">
+				<title>Tabelle.402</title>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st1"/>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st13"/>
+			</g>
+			<g id="shape403-442" v:mID="403" v:groupContext="shape" transform="translate(5,-7.2)">
+				<title>Tabelle.403</title>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st1"/>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st13"/>
+			</g>
+			<g id="shape404-445" v:mID="404" v:groupContext="shape" transform="translate(32,-25.2)">
+				<title>Tabelle.404</title>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st1"/>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st13"/>
+			</g>
+		</g>
+		<g id="group405-448" transform="translate(266.305,-301.028)" v:mID="405" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.125):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="RealBeginX" v:prompt="" v:val="VT0(0.050560791851062):1"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(-0.19943920814894):1"/>
+				<v:ud v:nameU="Navigability" v:prompt="" v:val="VT0(0.050560791851062):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Straight Relationship.405</title>
+			<g id="shape406-449" v:mID="406" v:groupContext="shape" transform="translate(0.183324,-14.1732)">
+				<title>Tabelle.406</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape407-452" v:mID="407" v:groupContext="shape" transform="translate(15.5631,-14.1732)">
+				<title>Tabelle.407</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape408-455" v:mID="408" v:groupContext="shape" transform="translate(15.5631,-1.5732)">
+				<title>Tabelle.408</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape409-458" v:mID="409" v:groupContext="shape" transform="translate(0.183324,-1.5732)">
+				<title>Tabelle.409</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape405-461" v:mID="405" v:groupContext="groupContent">
+				<path d="M3.64 341.36 L14.36 341.36" class="st9"/>
+			</g>
+		</g>
+		<g id="group415-466" transform="translate(289.665,-301.028)" v:mID="415" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.375):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(2.8733329801758):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.60665781278522):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Routable Relationship.415</title>
+			<desc>[ plain text data (ptd) ]</desc>
+			<g id="shape416-467" v:mID="416" v:groupContext="shape" transform="translate(-195.279,26.3775)">
+				<title>Tabelle.416</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape417-470" v:mID="417" v:groupContext="shape" transform="translate(11.6011,19.5555)">
+				<title>Tabelle.417</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape418-473" v:mID="418" v:groupContext="shape" transform="translate(-13.8547,19.5555)">
+				<title>Tabelle.418</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape419-476" v:mID="419" v:groupContext="shape" transform="translate(-220.735,26.3775)">
+				<title>Tabelle.419</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape415-479" v:mID="415" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="-110.376" cy="365.266" width="82.97" height="17.6036"/>
+				<path d="M0 350.36 L0 365.27 L-206.88 365.27 L-206.88 394.04" class="st9"/>
+				<rect v:rectContext="textBkgnd" x="-146.949" y="360.466" width="73.1478" height="9.59985" class="st11"/>
+				<text x="-146.95" y="367.67" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>[ plain text data (ptd) ]</text>			</g>
+		</g>
+		<g id="group420-486" transform="translate(71.295,-49.4218)" v:mID="420" v:groupContext="group">
+			<title>Decision, Merge.420</title>
+			<g id="shape421-487" v:mID="421" v:groupContext="shape">
+				<title>Tabelle.421</title>
+				<path d="M0 341.36 L9 332.36 L18 341.36 L9 350.36 L0 341.36 Z" class="st3"/>
+			</g>
+			<g id="shape422-489" v:mID="422" v:groupContext="shape" transform="translate(5,-7.2)">
+				<title>Tabelle.422</title>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st1"/>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st13"/>
+			</g>
+			<g id="shape423-492" v:mID="423" v:groupContext="shape" transform="translate(5,-7.2)">
+				<title>Tabelle.423</title>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st1"/>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st13"/>
+			</g>
+			<g id="shape424-495" v:mID="424" v:groupContext="shape" transform="translate(5,-7.2)">
+				<title>Tabelle.424</title>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st1"/>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st13"/>
+			</g>
+			<g id="shape425-498" v:mID="425" v:groupContext="shape" transform="translate(32,-25.2)">
+				<title>Tabelle.425</title>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st1"/>
+				<rect x="0" y="346.762" width="8" height="3.6" class="st13"/>
+			</g>
+		</g>
+		<g id="shape444-501" v:mID="444" v:groupContext="shape" transform="translate(403.445,-95.5468)">
+			<title>Object Node.444</title>
+			<desc>(nptd) Sample of Relevant Material</desc>
+			<v:userDefs>
+				<v:ud v:nameU="Sharpness" v:val="VT0(0.125):26"/>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TextPosition" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TextWidth" v:val="VT0(0.75):1"/>
+				<v:ud v:nameU="TextOffSet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetShapeHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="TextWidth" v:prompt="" v:val="VT0(1.7202461951189):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="61.9289" cy="340.237" width="123.86" height="17.6036"/>
+			<path d="M0 350.36 L123.86 350.36 L123.86 330.11 L0 330.11 L0 350.36 Z" class="st3"/>
+			<text x="4.91" y="342.64" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>(nptd) Sample of Relevant Material</text>		</g>
+		<g id="group445-504" transform="translate(294.165,-92.1718)" v:mID="445" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Interaction Use.445</title>
+			<g id="shape446-505" v:mID="446" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.446</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="323.362" width="105.75" height="27" class="st3"/>
+			</g>
+			<g id="shape447-507" v:mID="447" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.447</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="70.46" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape448-509" v:mID="448" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.448</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape449-511" v:mID="449" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.449</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape450-513" v:mID="450" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.450</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape451-515" v:mID="451" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.451</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape452-517" v:mID="452" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.452</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape453-519" v:mID="453" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.453</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape454-521" v:mID="454" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.454</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="52.875" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape455-523" v:mID="455" v:groupContext="shape" transform="translate(-9,-9)">
+				<title>Tabelle.455</title>
+				<desc>Sampling</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_3" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="26.717" cy="341.362" width="40.36" height="18"/>
+				<path d="M0 350.36 L44.43 350.36 L53.43 341.36 L53.43 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="11.44" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Sampling</text>			</g>
+		</g>
+		<g id="shape456-526" v:mID="456" v:groupContext="shape" transform="translate(390.915,-105.672)">
+			<title>Message (seq.diag).456</title>
+			<v:userDefs>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LostFound" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<path d="M0 350.36 L12.53 350.36" class="st9"/>
+		</g>
+		<g id="shape457-531" v:mID="457" v:groupContext="shape" transform="translate(150.292,-12.2968)">
+			<title>Object Node.457</title>
+			<desc>Sample of Relevant Material</desc>
+			<v:userDefs>
+				<v:ud v:nameU="Sharpness" v:val="VT0(0.125):26"/>
+				<v:ud v:nameU="State" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TextPosition" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TextWidth" v:val="VT0(0.75):1"/>
+				<v:ud v:nameU="TextOffSet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetShapeHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="TextWidth" v:prompt="" v:val="VT0(1.6618698828631):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="59.8273" cy="340.237" width="101.91" height="17.6036"/>
+			<path d="M0 350.36 L119.65 350.36 L119.65 330.11 L0 330.11 L0 350.36 Z" class="st3"/>
+			<text x="13.78" y="342.64" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Sample of Relevant Material</text>		</g>
+		<g id="shape467-534" v:mID="467" v:groupContext="shape" transform="translate(48.9088,-8.92177)">
+			<title>Action</title>
+			<desc>Merge Samples</desc>
+			<v:userDefs>
+				<v:ud v:nameU="Sharpness" v:val="VT0(0.125):26"/>
+				<v:ud v:nameU="State" v:val="VT0(6):26"/>
+				<v:ud v:nameU="TextPosition" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TextWidth" v:val="VT0(0.75):1"/>
+				<v:ud v:nameU="TextOffSet" v:val="VT0(0.038194444444444):29"/>
+				<v:ud v:nameU="SetHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetShapeHeight" v:val="VT0(0):26"/>
+				<v:ud v:nameU="TextWidth" v:prompt="" v:val="VT0(0.8718401451786):29"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="31.3862" cy="336.862" width="60.03" height="17.6036"/>
+			<path d="M0 343.61 A6.75 6.75 -180 0 0 6.75 350.36 L56.02 350.36 A6.75 6.75 -180 0 0 62.77 343.61 L62.77 330.11 A6.75
+						 6.75 -180 0 0 56.02 323.36 L6.75 323.36 A6.75 6.75 -180 0 0 0 330.11 L0 343.61 Z" class="st3"/>
+			<text x="6.28" y="339.26" class="st7" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Merge Samples</text>		</g>
+		<g id="group468-537" transform="translate(210.119,-95.5468)" v:mID="468" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.375):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(1.8031155649121):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.39062497522682):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Routable Relationship.468</title>
+			<g id="shape469-538" v:mID="469" v:groupContext="shape" transform="translate(-118.223,13.6014)">
+				<title>Tabelle.469</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape470-541" v:mID="470" v:groupContext="shape" transform="translate(11.6011,16.7772)">
+				<title>Tabelle.470</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape471-544" v:mID="471" v:groupContext="shape" transform="translate(-13.8547,16.7772)">
+				<title>Tabelle.471</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape472-547" v:mID="472" v:groupContext="shape" transform="translate(-143.679,13.6014)">
+				<title>Tabelle.472</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape468-550" v:mID="468" v:groupContext="groupContent">
+				<path d="M0 350.36 L0 365.89 L-129.82 365.89 L-129.82 378.49" class="st9"/>
+			</g>
+		</g>
+		<g id="group473-555" transform="translate(465.373,-95.5468)" v:mID="473" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.375):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(3.1415926535898):32"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(5.223310593794):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.51562497522682):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Routable Relationship.473</title>
+			<g id="shape474-556" v:mID="474" v:groupContext="shape" transform="translate(-352.081,44.5518)">
+				<title>Tabelle.474</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape475-559" v:mID="475" v:groupContext="shape" transform="translate(11.6011,24.4348)">
+				<title>Tabelle.475</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape476-562" v:mID="476" v:groupContext="shape" transform="translate(-13.8547,24.4348)">
+				<title>Tabelle.476</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape477-565" v:mID="477" v:groupContext="shape" transform="translate(-352.081,31.9518)">
+				<title>Tabelle.477</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape473-568" v:mID="473" v:groupContext="groupContent">
+				<path d="M0 350.36 L0 387.49 L-376.08 387.49" class="st9"/>
+			</g>
+		</g>
+		<g id="group478-573" transform="translate(71.295,-51.6718)" v:mID="478" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.125):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="RealBeginX" v:prompt="" v:val="VT0(0.125):29"/>
+				<v:ud v:nameU="RealBeginY" v:prompt="" v:val="VT0(-0.031250012107193):1"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(-0.125):29"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.21874998789281):1"/>
+				<v:ud v:nameU="Navigability" v:prompt="" v:val="VT0(0.125):29"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="" v:val="VT0(-0.031250012107193):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Straight Relationship.478</title>
+			<g id="shape479-574" v:mID="479" v:groupContext="shape" transform="translate(20.6011,5.55988)">
+				<title>Tabelle.479</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape480-577" v:mID="480" v:groupContext="shape" transform="translate(20.6011,14.6937)">
+				<title>Tabelle.480</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape481-580" v:mID="481" v:groupContext="shape" transform="translate(-4.85472,14.6937)">
+				<title>Tabelle.481</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape482-583" v:mID="482" v:groupContext="shape" transform="translate(-4.85472,5.55988)">
+				<title>Tabelle.482</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape478-586" v:mID="478" v:groupContext="groupContent">
+				<path d="M9 352.61 L9 366.11" class="st9"/>
+			</g>
+		</g>
+		<g id="group483-591" transform="translate(111.681,-13.4218)" v:mID="483" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.125):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="RealBeginX" v:prompt="" v:val="VT0(2.2204460492503E-16):29"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(-0.53626055089126):29"/>
+				<v:ud v:nameU="Navigability" v:prompt="" v:val="VT0(2.2204460492503E-16):29"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Straight Relationship.483</title>
+			<g id="shape484-592" v:mID="484" v:groupContext="shape" transform="translate(23.5977,-14.1732)">
+				<title>Tabelle.484</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape485-595" v:mID="485" v:groupContext="shape" transform="translate(12.7594,-14.1732)">
+				<title>Tabelle.485</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape486-598" v:mID="486" v:groupContext="shape" transform="translate(12.7594,-1.5732)">
+				<title>Tabelle.486</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape487-601" v:mID="487" v:groupContext="shape" transform="translate(23.5977,-1.5732)">
+				<title>Tabelle.487</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape483-604" v:mID="483" v:groupContext="groupContent">
+				<path d="M0 341.36 L38.61 341.36" class="st9"/>
+			</g>
+		</g>
+		<g id="group488-609" transform="translate(269.947,-13.4609)" v:mID="488" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.125):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0.0042297253403937):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0.0042297253403931):32"/>
+				<v:ud v:nameU="RealBeginY" v:prompt="" v:val="VT0(0.12445682356035):1"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(-0.25683615681067):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(-0.12554317643965):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="" v:val="VT0(0.12445682356035):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Straight Relationship.488</title>
+			<g id="shape489-610" v:mID="489" v:groupContext="shape" transform="translate(4.02899,-14.1638)">
+				<title>Tabelle.489</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape490-613" v:mID="490" v:groupContext="shape" transform="translate(12.1019,-14.1825)">
+				<title>Tabelle.490</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape491-616" v:mID="491" v:groupContext="shape" transform="translate(12.2096,-1.58265)">
+				<title>Tabelle.491</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape492-619" v:mID="492" v:groupContext="shape" transform="translate(4.13666,-1.56386)">
+				<title>Tabelle.492</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape488-622" v:mID="488" v:groupContext="groupContent">
+				<path d="M0 341.4 L18.49 341.32" class="st9"/>
+			</g>
+		</g>
+		<g id="group516-627" transform="translate(297.439,-8.99999)" v:mID="516" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_4" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_5" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_6" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_7" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_8" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_9" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Row_10" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Combined Fragment</title>
+			<g id="shape517-628" v:mID="517" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.517</title>
+				<v:userDefs>
+					<v:ud v:nameU="HideText"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<rect x="0" y="323.362" width="103.061" height="27" class="st3"/>
+			</g>
+			<g id="shape518-630" v:mID="518" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.518</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="82.2641" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape519-632" v:mID="519" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.519</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="51.5306" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape520-634" v:mID="520" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.520</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="51.5306" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape521-636" v:mID="521" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.521</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="51.5306" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape522-638" v:mID="522" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.522</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="51.5306" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape523-640" v:mID="523" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.523</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="51.5306" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape524-642" v:mID="524" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.524</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="51.5306" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape525-644" v:mID="525" v:groupContext="shape" transform="translate(-9,5.68434E-14)">
+				<title>Tabelle.525</title>
+				<desc>[guard]</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HideText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="MoveText" v:val="VT0(0):26"/>
+					<v:ud v:nameU="HideLine" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="51.5306" cy="359.362" width="33.52" height="17.6036"/>
+			</g>
+			<g id="shape526-646" v:mID="526" v:groupContext="shape" transform="translate(-9,-9)">
+				<title>Tabelle.526</title>
+				<desc>Content Analysis</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_3" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="32.7541" cy="341.362" width="65.51" height="18"/>
+				<path d="M0 350.36 L56.51 350.36 L65.51 341.36 L65.51 332.36 L0 332.36 L0 350.36 Z" class="st3"/>
+				<text x="4.91" y="343.76" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Content Analysis</text>			</g>
+		</g>
+		<g id="group527-649" transform="translate(391.5,-13.5)" v:mID="527" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.125):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):29"/>
+				<v:ud v:nameU="FillColor" v:prompt="Association = 0, Composition = 2, Aggregation = 1, Namespace = 3"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="Position of first &#60;--- or -X----" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="BeginArrow" v:prompt="No Arrow = 0, Arrow = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginDot" v:prompt="No Dot = 0; Dot = 1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow42" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-6.2523691529862E-08):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-6.2523795167993E-08):32"/>
+				<v:ud v:nameU="RealBeginY" v:prompt="" v:val="VT0(0.12500000223517):1"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(-1.1916409379999):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(-0.12499999776483):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="" v:val="VT0(0.12500000223517):1"/>
+				<v:ud v:nameU="SetEndArrow" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>Straight Relationship.527</title>
+			<g id="shape528-650" v:mID="528" v:groupContext="shape" transform="translate(69.3695,-14.1732)">
+				<title>Tabelle.528</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape529-653" v:mID="529" v:groupContext="shape" transform="translate(14.1751,-14.1732)">
+				<title>Tabelle.529</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape530-656" v:mID="530" v:groupContext="shape" transform="translate(14.1751,-1.5732)">
+				<title>Tabelle.530</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape531-659" v:mID="531" v:groupContext="shape" transform="translate(69.3695,-1.5732)">
+				<title>Tabelle.531</title>
+				<path d="M0 350.36 L2.25 350.36 L2.25 348.11 L0 348.11 L0 350.36 Z" class="st10"/>
+			</g>
+			<g id="shape527-662" v:mID="527" v:groupContext="groupContent">
+				<path d="M0 341.36 L85.8 341.36" class="st9"/>
+			</g>
+		</g>
+	</g>
+</svg>

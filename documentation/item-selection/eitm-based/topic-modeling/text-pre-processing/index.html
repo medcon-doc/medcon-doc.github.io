@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>University of Mannheim | Mediated Contestation in Comparative Perspective project | Documentation - Item Selection - EITM-based - Topic Modeling - Text Pre-Processing</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="../../../../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../../../common/medcon.css"/>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Text Pre-Processing</h3>
+					<p>
+						This section gives a detailed description of the document pre-processing for the LdaModel training.
+					</p>
+					<h3>Text Sanitization</h3>
+					<p>
+						The first pre-processing step was text sanitization. Several regular expressions were applied to harmonize the representation of words. 
+					</p>
+					<p>
+						This included:
+						<ul>
+							<li><p>removal of dashes, e.g. in connected words</p></li>
+							<li><p>the removal of quotes, e.g. in citations</p></li>
+							<li><p>the removal of punctuation, e.g. commas</p></li>
+							<li><p>Unicode normalization of Unicode representations, e.g. to harmonize the different representations for umlauts (&uuml; could be represented as U+00DC or U+006F + U+0308)</p></li>
+							<li><p>tokenization and filtering to keep only words and numbers as tokens</p></li>
+						</ul>
+					</p>
+					<h3>Natural Language Processing</h3>
+					<p>
+						After that, natural language processing (NLP) was applied to be able to find significant words in each sentence.
+					</p>
+					<p>
+						This included part-of-speech tagging (POS-tagging), that assigns all of the provided tokens with their respective POS-tag, i.e. their function within a sentence. For example, all nouns get tagged with /NN, all verbs with /VB and so on. Based on that all vectors could be lemmatized. This means, that all vectors were replaced by their lemma, as they appear in a language dictionary. This harmonizes, for example, the vectors "were" and "was" to "be/VB".
+					</p>
+					<p>
+						The English and German news items were processed using the Python <a href="https://www.clips.uantwerpen.be/pages/pattern" target="_blank">Pattern</a> package and its find_lemata function. Pattern is a web mining library that provides an all in one POS-tagging and lemmatization function. The Turkish news items were processed by the Java NLP library <a href="https://github.com/ahmetaa/zemberek-nlp" target="_blank">Zemberek</a>.
+					</p>
+					<p>
+						Finally, the POS-tags were used to filter out the significant words for the construction of the classifier. As the classifier was supposed to be used to do a content analysis, i.e. it should decide if a news item belongs to a certain given topic or not, the filter was set to only keep verbs, nouns, adjectives, adverbs, postpositions, and numbers.
+					</p>
+					<h3>Term-Frequency Inverse Document Frequency (TF-IDF)</h3>
+					<p>
+						The second to last step was to train a TF-IDF model on the document corpus. A TF-IDF model assigns weights to each word in a dictionary that are proportional in relation to the number of appearances within a document and anti-proportional with respect to the logarithmized proportion of documents in the corpus in which the vector appears. This gives a greater weight to words that are significant for one article, but also weighs down words that appear in all of the documents in the corpus, i.e. stop words. In this way the most defining words for each item can be identified.
+					</p>
+					<h3>Document Corpus</h3>
+					<p>
+						In the last pre-processing step before learning the LdaModels an NxM matrix was constructed, representing the TF-IDF values of N documents (i.e. the corpus of items for a country) and M word vectors. To contain the high dimensionality of the problem and therefore to manage the runtime of the building of the LdaModels, only tokens that do not appear in more than 10% of documents and with a length between 2 and 15 characters were added to the feature matrix. This is a method to automatically filter out stop words. To reduce complexity and focus the classifier on significant words, the number of word vectors M was cut off at 100,000, therefore only keeping the 100,000 most frequent tokens.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		
+		<script type="text/javascript">window.linkLevel = 5; window.sectionID = 'text-pre-processing';</script>		
+		<script type="text/javascript" src="../../../../../common/common.js"></script>
+		<script type="text/javascript" src='../../../../subnav.js'></script>
+    </body>
+</html>

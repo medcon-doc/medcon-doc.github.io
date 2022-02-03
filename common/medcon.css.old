@@ -1,0 +1,126 @@
+/* fix fixed-bar */
+body { padding-top: 60px; }
+@media screen and (max-width: 768px) {
+	body { padding-top: 60px; }
+}
+
+/* Sticky footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 50px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #222222;
+}
+
+p {
+	text-align: justify;
+}
+figure {
+	padding: 10px;
+	display: inline-block;
+}
+figure img {
+	vertical-align: top;
+}
+figure figcaption {
+	padding-top: 10px;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+}
+li {
+	font-weight: bold;
+}
+li p {
+	font-weight: normal;
+	text-align: justify;
+}
+li.brand-nav {
+	font-weight: normal;
+}
+li table tbody {
+	font-weight: normal;
+}
+span.code {
+	display: inline;
+	font-family: monospace;
+	font-weight: bold;
+}
+div.center {
+	text-align: center;
+}
+div.process {
+	font-size: 14px;
+}
+table.table-bordered.dataTable {
+	font-size: 11px;
+}
+.total {
+	font-size: 14px;
+}
+
+.navbar-nav-center {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav-center > li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar-brand {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 16px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.nav-stacked > li > a {
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.nav-subsection > li > a {
+	list-style-type: none;
+	padding: 4px;
+	padding-left: 25px;
+}
+
+.nav-subsection > li > a:before {
+	content: "▪";  
+	margin-right: 10px;            
+}​
+
+.brand-first {
+	padding-right: 8px;
+}
+
+.brand-second {
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 0px !important;
+}
+
+.brand-third {
+	padding-left: 8px;
+	margin: 0px !important;
+}
+
+.sand-checked {
+	background-color: #a94442;
+}

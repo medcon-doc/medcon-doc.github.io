@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre style='color:#000000;background:#ffffff;'><span style='color:#7f0055; font-weight:bold; '>public</span> <span style='color:#7f0055; font-weight:bold; '>static</span> String clean(String content) {
+    <span style='color:#7f0055; font-weight:bold; '>if</span>(content==<span style='color:#7f0055; font-weight:bold; '>null</span>)
+        <span style='color:#7f0055; font-weight:bold; '>return</span> content;
+
+    <span style='color:#3f7f59; '>// unencode (X)HTML entities</span>
+    content = HtmlEscape.unescapeHtml(content);
+
+    <span style='color:#3f7f59; '>// clean HTML tags, preserving and inducing new line breaks</span>
+    Document document = Jsoup.parse(content);
+    document.outputSettings(<span style='color:#7f0055; font-weight:bold; '>new</span> Document.OutputSettings().prettyPrint(<span style='color:#7f0055; font-weight:bold; '>false</span>));
+
+    document.select(<span style='color:#2a00ff; '>"p"</span>).prepend(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n"</span>);
+    document.select(<span style='color:#2a00ff; '>"br"</span>).append(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n"</span>);
+    document.select(<span style='color:#2a00ff; '>"h1"</span>).prepend(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n"</span>);
+    document.select(<span style='color:#2a00ff; '>"h2"</span>).prepend(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n"</span>);
+    document.select(<span style='color:#2a00ff; '>"h3"</span>).prepend(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n"</span>);
+    document.select(<span style='color:#2a00ff; '>"h4"</span>).prepend(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n"</span>);
+    document.select(<span style='color:#2a00ff; '>"h5"</span>).prepend(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n"</span>);
+    document.select(<span style='color:#2a00ff; '>"h6"</span>).prepend(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n"</span>);
+
+    content = document.html().replaceAll(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>\\</span><span style='color:#2a00ff; '>n"</span>, <span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>"</span>);
+
+    content = Jsoup.clean(content, <span style='color:#2a00ff; '>""</span>, Whitelist.none(), <span style='color:#7f0055; font-weight:bold; '>new</span> Document.OutputSettings().prettyPrint(<span style='color:#7f0055; font-weight:bold; '>false</span>));
+
+    <span style='color:#3f7f59; '>// unencode jsoup induced entities</span>
+    content = HtmlEscape.unescapeHtml(content);
+
+    <span style='color:#3f7f59; '>// normalize newlines</span>
+    content = content.replace(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\r</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>"</span>, <span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>"</span>);
+    content = content.replace(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\r</span><span style='color:#2a00ff; '>"</span>, <span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>"</span>);
+    content = content.replaceAll(<span style='color:#2a00ff; '>"(</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>){2,}"</span>, <span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>"</span>);
+
+    <span style='color:#7f0055; font-weight:bold; '>return</span> content;
+}
+</pre>
+</body>
+</html>

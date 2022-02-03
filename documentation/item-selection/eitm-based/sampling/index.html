@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>University of Mannheim | Mediated Contestation in Comparative Perspective project | Documentation - Item Selection - EITM-based - Sampling</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="../../../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../../common/medcon.css"/>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Sampling</h3>
+					<p>
+						The goal of the sampling step was to generate a sample of a predefined size from the material coded as relevant. A sample for each country and media type should be drawn. The distribution of items between the sources from a country and media type should be as equal as possible. After that, the sampled material should be exported as text files for further analysis in Angrist.
+					</p>
+					<p>
+						Therefore, the sampling process consisted of two steps:
+						<ol>
+							<li>
+								<div class="list-head">Sample</div>
+								<p>
+									In the sampling step, a sample of 100 news items was created for each country and media type from the pool of all identified relevant items. It was tried to have an equal distribution of items for each source in the sample.
+								</p>
+							</li>
+							<li>
+								<div class="list-head">Extraction of Items for Further Analysis</div>
+								<p>
+									Finally, the documents were extracted in a file format and document structure, so they could be analyzed using Angrist in the following project phase.
+								</p>
+							</li>
+						</ol>
+					</p>
+					<h3>Sampling Method</h3>
+					<div class="row">
+						<div class="col-sm-3">
+							<figure style="width: 100%;">
+							  <img src="round-robin-sampling.svg" alt="Classification process overview" style="width: 100%;" />
+							  <figcaption>The round-robin-based sampling process.</figcaption>
+							</figure>
+						</div>
+						<div class="col-sm-9">
+							<p>
+								To achieve the goal of a mostly equal distribution of material between the sources, a round-robin approach to generate the sample was used.
+							</p>
+							<p>
+								First, the list of selected relevant news items for each source was brought back to the random sampling order, generated in step 2 of <a href="../thematic-classification" data-role="internal">Classification</a>. Then a sample size n<sub>s</sub> (in our case 100) was introduced. After that, the generator has drawn one news item from each source in a round-robin style manner until the sample size was exactly equal to n<sub>b</sub> or no relevant news items were left. If a source did not have any more items, it was skipped for that round and the following rounds. In contrast to the binning step for the <a href="../thematic-classification/online-coding" data-role="internal">online coding</a>, the last round was <b>not</b> always completed. The generator was stopped when the sample size was reached or lists of relevant items were exhausted. The source list, i.e. the order of sources during the rounds, was randomly shuffled before the sampling so that the sample did not depend on the initial order the sources were loaded.
+							</p>
+							<p>
+								The graphic shows an example for a sample size n<sub>s</sub> = 10. The rows in the graphic represent the sources with their lists of relevant news items (i<sub>j</sub> with j = 1,..., n_s, where n is the number of relevant news items for this source). The list of news items is sorted by the random shuffling generated in step 2 of <a href="../thematic-classification" data-role="internal">Classification</a>. The example sample was constructed from four sources (s<sub>1</sub> to s<sub>4</sub>). The columns represent the rounds of the round-robin generator. In round one and two, items from all four sources were added to the sample. In round three, source 2 ran out of material and was skipped. Therefore, items from the remaining two sources got added, until the sample size of 10 was reached. In the last round, source s<sub>4</sub> did not contribute to the sample anymore, as the sample size was already reached.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		
+		<script type="text/javascript">window.linkLevel = 4; window.sectionID = 'sampling';</script>
+		<script type="text/javascript" src="../../../../common/common.js"></script>
+		<script type="text/javascript" src='../../../subnav.js'></script>
+    </body>
+</html>

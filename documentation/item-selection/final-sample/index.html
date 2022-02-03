@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>University of Mannheim | Mediated Contestation in Comparative Perspective project | Documentation - Item Selection - Final Sample</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../../../common/datatables.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../common/medcon.css"/>
+		
+		<script type="text/javascript" src="../../../common/datatables.min.js"></script>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Final Sample</h3>
+					<p>
+						This describes the sample created after the data collection, thematic classification and sampling process. For each of the countries and media types, the sampling process created a sample with an equal distribution between each of the sources. The total sample contains 1,700 news items.
+					</p>
+					<p>
+						The table shows an overview of the articles in the final sample for the content analysis. The table can be filtered by entering search keywords above.
+					</p>
+					<table id="report" class="display" width="100%">
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+
+		<script type="text/javascript" src="sample.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('#report').DataTable( {
+				bPaginate: false,
+				data: window.sample,
+				columns: [
+					{ title: "Text ID", data: 'Text_ID', orderable: true},
+					{ title: "Country", data: 'Country', orderable: true},
+					{ title: "Media Type", orderable: true, data: 'Mediatype'},
+					{ title: "Source", orderable: true, data: 'Media Outlet'},
+					{ title: "Publish Date", data: 'Date_Published', orderable: true},
+					{ title: "Title", data: 'Title', orderable: true},
+				],
+				headerCallback: function (thead, data, start, end, display) {
+				},
+				order: [ [1, "asc"], [2, "asc"], [0, "asc"] ]
+			} );
+		} );
+		
+		$('#report')
+			.removeClass( 'display' )
+			.addClass('table table-striped table-bordered');
+			
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();   
+		});
+		</script>
+		
+		<script type="text/javascript">window.linkLevel = 3; window.sectionID = 'final-sample';</script>		
+		<script type="text/javascript" src="../../../common/common.js"></script>
+		<script type="text/javascript" src='../../subnav.js'></script>
+    </body>
+</html>

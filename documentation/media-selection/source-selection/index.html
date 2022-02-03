@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>University of Mannheim | Mediated Contestation in Comparative Perspective project | Documentation - Media Selection - Source Selection</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="../../../common/datatables.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../common/medcon.css"/>
+		<script type="text/javascript" src="../../../common/datatables.min.js"></script>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Source Selection</h3>
+					<p>
+						The following table gives an overview of the sources named by experts for each country. The column <i>Rating</i> represents the average expert rating of the source, <i>SD</i> the standard deviation of the expert ratings, and the column <i>N</i> is the number of experts who named and rated this source. The column <i>Cell Rank</i> is a ranking of the source for this country and media type by highest average rating. The column <i>Collected</i> shows if this source has been selected for data collection.
+					</p>
+					<p>
+						The table can be filtered by entering keywords into the <i>Search</i> box and sorted by clicking table headers.
+					</p>
+					<table id="report" class="display" width="100%">
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		
+		<script type="text/javascript" src="dataset.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('#report').DataTable( {
+				bPaginate: false,
+				data: window.dataSet,
+				columns: [
+					{ title: "Country", data: 'country', orderable: true},
+					{ title: "Media Type", orderable: true, data: 'mediatype'},
+					{ title: "Cell Rank", data: 'cellrank', orderable: true },
+					{ title: "Title", data: 'title', orderable: true},
+					{ title: "URL", data: 'url', orderable: true},
+					{ title: "Collected?", data: 'collected', orderable: true},
+					{ title: "Language", orderable: true, data: 'language'},
+					{ title: "Rating", orderable: true, data: 'mean_rating'},
+					{ title: "SD", orderable: true, data: 'sd'},
+					{ title: "N", orderable: true, data: 'n', render: function(data) {return parseInt(data);}}
+				],
+				footerCallback: function ( row, data, start, end, display ) {
+					var api = this.api(), data;
+					// Total over all pages
+					/*total = api
+						.column( 6 )
+						.data()
+						.reduce( function (a, b) {
+							return a + b;
+						}, 0 );
+		 
+					// Total over this page
+					pageTotal = api
+						.column( 6, { page: 'current'} )
+						.data()
+						.reduce( function (a, b) {
+							return a + b;
+						}, 0 );
+		 
+					// Update footer
+					$( api.column( 6 ).footer() ).html(
+						pageTotal == total ?
+							pageTotal.toLocaleString('en-US'):
+							pageTotal.toLocaleString('en-US')+' of '+ total.toLocaleString('en-US') +' items'
+					);*/
+				},
+				headerCallback: function (thead, data, start, end, display) {
+					var api = this.api(), data;
+					$( api.column( 5 ).header() ).html(
+					'<a class="test" href="#" data-toggle="tooltip" data-placement="top" title="This column shows a \'Y\', if this media source has been added to the pool of sources collected during the Data Collection step.">Collected?</a>'
+					);
+				},
+				order: [ [0, "asc"], [1, "asc"], [2, "asc"] ]
+			} );
+		} );
+
+		
+		$('#report')
+			.removeClass( 'display' )
+			.addClass('table table-striped table-bordered');
+			
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();   
+		});
+		</script>
+		
+		<script type="text/javascript">window.linkLevel = 3; window.sectionID = 'source-selection';</script>		
+		<script type="text/javascript" src="../../../common/common.js"></script>
+		<script type="text/javascript" src='../../subnav.js'></script>
+    </body>
+</html>

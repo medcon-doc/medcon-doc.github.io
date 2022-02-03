@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>University of Mannheim | Mediated Contestation in Comparative Perspective project | Documentation - Text Data Collection - Additional Notes</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="../../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../common/medcon.css"/>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Additional Notes</h3>
+					This section gives additional notes on the data set.
+					<h3>Empty Sources</h3>
+					<p>
+						The project started with an expert interview to identify the most relevant sources for each country. During this interview, the scope of the item collection was defined. However, several sources that were identified and added to the scope of the collection, are missing in the final data set. The first missing sources are from Australia's <b>theaustralian.com.au</b> and a blog on their site, namely the <b>Mumble Blog</b>. These sources were behind a paywall that prevented automatic item extraction. That is why the decision was made to exclude these sources from the collection.
+					</p>
+					<p>
+						The other missing sources are the Blogs <b>trella.org</b> and <b>lebanonspring.com</b> from Lebanon that were monitored by the crawler but did not publish any content during the collection period.
+					</p>
+					<h3>Collection Errors</h3>
+					<p>
+						For the source <b>Derin Düsünce</b> only the metadata for each news item were collected, i.e. the content field for those items is empty. The metadata contains the URL to the original items, that could be used to extract the full texts after the fact.
+					</p>
+					<h3>Variation in Item Output</h3>
+					<p>
+						The statistics for the daily item output for each source show some interesting variation in the output during the collection phase. This variation can be explained by a combination of extraction and saving errors during the collection process. When these errors were identified for a particular source, they are mentioned in the data set overview.
+					</p>
+					<p>
+						Another explanation is a seasonal trend in data output for the sources as even those data collections directly provided by the publishers, which should not contain any extraction and saving errors, show some variation over time. 
+					</p>
+					<h3>Duplicate Items</h3>
+					<p>
+						The <a href="../collection-process-ptd" data-role="internal">collection process</a> used a URL-based item deduplication strategy, i.e. for a given source an item was only added to the collection if no item with the same URL existed in the collection. In some of the sources, especially from the USA, the same item was published with different URLs on different feeds, e.g. on the main feed and the politics feed. 
+					</p>
+					<p>
+						Therefore, after the collection was finished, we scanned it duplicates to measure the number of duplicates for each source in the dataset. Each document was pre-processed and turned into word-vectors as described in section <a href="../../item-selection/eitm-based/topic-modeling/text-pre-processing" data-role="internal">Text Pre-Processing</a>, with the additional creation of n-grams up to length 3. After that the resulting vectors were transformed into a TF-IDF model using the <a href="http://scikit-learn.org/stable/" target="_new">scikit</a> package. Then each document was compared pairwise with all other documents for a given source using a linear kernel from scikit.
+					</p>
+					<p>
+						The threshold for flagging a document as a duplicate of another document was set to 75% similarity. For sources with less than 10,000 documents, the exact duplicate ratio was calculated. For sources with more than 10,000 documents, a random sample from the corpus was drawn. The sample was then split into 5 sub-samples of 2,000 items. For each sub-sample, the number of duplicates was calculated and then averaged over all 5 samples. The code for the duplicate analysis is attached below.
+					</p>
+					<p>
+						The results of this calculation are shown in the table in section <a href="../descriptive-statistics-ptd" data-role="internal">Descriptive Statistics</a>. The results show that very few sources have significant numbers of duplicate documents. 
+					</p>
+					<h3>Language of the Sources</h3>
+					<p>
+						The language label of the sources was manually determined before the data collection and later cross-checked using the Python <a href="https://pypi.python.org/pypi/langdetect" target="_new">langdetect</a> package. Each article with more than 50 words was analyzed with the langdetect function.
+					</p>
+					<p>
+						The analysis showed that most of the sources are mainly monolingual. The language label on the source level was based on the majority language in each source. However, two sources turned out to be multilingual, namely <b>reimann-blog.ch</b>, and <b>forausblog.ch</b>. From these sources items written in languages other than the project languages were removed from the data set.
+					</p>
+					<h4>Material</h4>
+					<ul>
+						<li><a href="../../files/Appendix - Python Script Document Similarity.py" download="" target="_blank">Python Script Document Similarity [PY]</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		
+		<script type="text/javascript">window.linkLevel = 3; window.sectionID = 'additional-notes';</script>		
+		<script type="text/javascript" src="../../../common/common.js"></script>
+		<script type="text/javascript" src='../../subnav.js'></script>
+    </body>
+</html>
