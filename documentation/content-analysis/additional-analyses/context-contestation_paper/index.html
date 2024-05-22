@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Blanked project | Documentation - Content Analysis - Additional Analysis</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="../../common/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../common/style.css"/>
+		
+		<link href="../../common/featherlight.min.css" type="text/css" rel="stylesheet" />
+		<script src="../../common/jquery-latest.js"></script>
+		<script src="../../common/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<style>
+			tbody.me-table > tr > td {
+				text-align: right
+			}
+			
+			tbody.me-table > tr > td:first-child {
+				text-align: left
+			}
+		</style>
+    </head>
+    <body>
+		<div id="header"></div>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div id="subNavbar"></div>
+				</div>
+				<div class="col-sm-10">
+					<h3>Regression Models</h3>
+					<p>
+						The following table shows the numerical estimates from a mixed-effects Poisson regression model regressing the item-level count variable justification frequency on the three factors (1) type of political system, (2) socio-cultural division, and (3) media type.
+					</p>
+					<table class="table table-condensed table-striped" style="width: auto;">
+					<thead>
+						<tr>
+							<th style="width: 60%" rowspan="2" ></th>
+							<th class="text-center" style="width: 40%" colspan="2">Justification frequency</th>
+							
+						</tr>
+						<tr>
+							<th class="text-center"><i>B</i></td>
+							<th class="text-center"><i>SE</i></td>
+						</tr>
+					</thead>
+					<tbody class="me-table">
+						
+						<tr>
+							<td colspan="3"><b>Political system</b></td>
+						</tr>
+						<tr>
+							<td>Mixed (vs Consensus)</td>
+							<td>-.05</td>
+							<td>.03</td>
+							
+						</tr>
+						<tr>
+							<td>Majoritarian (vs Consensus)</td>
+							<td>.05 </td>
+							<td>-.04 </td>
+						
+						</tr>
+						<tr>
+							<td colspan="3"><b>Societal division</b></td>
+						</tr>
+						<tr>
+							<td>Contested secularism (vs Stable secularism)</td>
+							<td>-.05 </td>
+							<td>.04 </td>
+							
+						</tr>
+						<tr>
+							<td colspan="3"><b>Media type</b></td>
+						</tr>
+						<tr>
+							<td>News website (vs Blog)</td>
+							<td>.19 </td>
+							<td>-.14 </td>
+						
+						</tr>
+						<tr>
+							<td>Printed newspaper (vs Blog)</td>
+							<td>.16 </td>
+							<td>-.12 </td>
+				
+						</tr>
+						<tr>
+						    <td><i>N</i> (media outlets)</td>
+						    <td colspan="2" class="text-center" >99</td>
+						</tr>
+						<tr>
+						    <td><i>N</i> (news items)</td>
+						    <td colspan="2" class="text-center" >1,700</td>
+						</tr>
+					</tbody>
+					</table>
+					<p>
+						<i>Note</i>: Cell entries are unstandardized coefficients with standard errors (SE) from a mixed-effects Poisson regression model. Reference categories for categorical independent variables given in parentheses. * p < .05; ** p < .01; *** p < .001
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		
+		<script type="text/javascript">window.linkLevel = 3; window.sectionID = 'additional-analysis';</script>
+		<script type="text/javascript" src="../../common/common.js"></script>
+		<script type="text/javascript" src='../../subnav.js'></script>
+    </body>
+</html>
 
